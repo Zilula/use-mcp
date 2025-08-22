@@ -21,7 +21,8 @@ import { auth, UnauthorizedError, OAuthClientProvider } from '@modelcontextproto
 import { sanitizeUrl } from 'strict-url-sanitise'
 import { BrowserOAuthClientProvider } from '../auth/browser-provider.js' // Adjust path
 import { assert } from '../utils/assert.js' // Adjust path
-import type { UseMcpOptions, UseMcpResult, RequestOptions } from './types.js' // Adjust path
+import type { UseMcpOptions, UseMcpResult } from './types.js' // Adjust path
+import type { RequestOptions } from '@modelcontextprotocol/sdk/types.js'
 import type { Transport } from '@modelcontextprotocol/sdk/shared/transport.js' // Added for type safety
 
 const DEFAULT_RECONNECT_DELAY = 3000

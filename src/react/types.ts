@@ -1,12 +1,4 @@
-import { Tool, Resource, ResourceTemplate, Prompt } from '@modelcontextprotocol/sdk/types.js'
-
-/**
- * Options that can be passed to MCP client requests
- */
-export type RequestOptions = {
-  /** Request timeout in milliseconds */
-  timeout?: number
-}
+import { Tool, Resource, ResourceTemplate, Prompt, RequestOptions } from '@modelcontextprotocol/sdk/types.js'
 
 export type UseMcpOptions = {
   /** The /sse URL of your remote MCP server */
